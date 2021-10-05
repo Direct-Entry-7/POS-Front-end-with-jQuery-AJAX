@@ -185,6 +185,83 @@
               </div>
 
               <div class="col-lg-6 col-12">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">Item Information</h3>
+                  </div>
+                  <!-- /.card-header -->
+                  <!-- form start -->
+                  <form id="quickForm">
+                    <div class="card-body">
+                      <div class="form-group">
+                        <label for="txt-code">Item Code</label>
+                        <input
+                          type="text"
+                          name="code"
+                          class="form-control"
+                          id="txt-code"
+                          placeholder="Eg. I001"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="txt-description">Item Description</label>
+                        <input
+                          type="text"
+                          name="description"
+                          class="form-control"
+                          id="txt-description"
+                          placeholder="Description"
+                          disabled
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="nmb-qtyOnHand">Qty. on Hand</label>
+                        <input
+                          type="number"
+                          name="qtyOnHand"
+                          class="form-control"
+                          id="nmb-qtyOnHand"
+                          placeholder="0"
+                          disabled
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="nmb-unitPrice">Unit Price</label>
+                        <input
+                          type="number"
+                          name="unitPrice"
+                          class="form-control"
+                          id="nmb-unitPrice"
+                          placeholder="00.00"
+                          disabled
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="nmb-qty">Qty</label>
+                        <input
+                          type="number"
+                          name="qty"
+                          class="form-control"
+                          id="nmb-qty"
+                          placeholder="00.00"
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-end">
+                      <button type="reset" class="btn btn-warning mr-3">
+                        Clear
+                      </button>
+                      <button type="submit" class="btn btn-primary btn-lg">
+                        Add
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <!-- /.card -->
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-12">
                 <table class="table table-bordered table-hover">
                   <thead>
                     <tr>
@@ -271,83 +348,6 @@
                     </tr>
                   </tfoot>
                 </table>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6 col-12">
-                <div class="card card-primary">
-                  <div class="card-header">
-                    <h3 class="card-title">Item Information</h3>
-                  </div>
-                  <!-- /.card-header -->
-                  <!-- form start -->
-                  <form id="quickForm">
-                    <div class="card-body">
-                      <div class="form-group">
-                        <label for="txt-code">Item Code</label>
-                        <input
-                          type="text"
-                          name="code"
-                          class="form-control"
-                          id="txt-code"
-                          placeholder="Eg. I001"
-                        />
-                      </div>
-                      <div class="form-group">
-                        <label for="txt-description">Item Description</label>
-                        <input
-                          type="text"
-                          name="description"
-                          class="form-control"
-                          id="txt-description"
-                          placeholder="Description"
-                          disabled
-                        />
-                      </div>
-                      <div class="form-group">
-                        <label for="nmb-qtyOnHand">Qty. on Hand</label>
-                        <input
-                          type="number"
-                          name="qtyOnHand"
-                          class="form-control"
-                          id="nmb-qtyOnHand"
-                          placeholder="0"
-                          disabled
-                        />
-                      </div>
-                      <div class="form-group">
-                        <label for="nmb-unitPrice">Unit Price</label>
-                        <input
-                          type="number"
-                          name="unitPrice"
-                          class="form-control"
-                          id="nmb-unitPrice"
-                          placeholder="00.00"
-                          disabled
-                        />
-                      </div>
-                      <div class="form-group">
-                        <label for="nmb-qty">Qty</label>
-                        <input
-                          type="number"
-                          name="qty"
-                          class="form-control"
-                          id="nmb-qty"
-                          placeholder="00.00"
-                        />
-                      </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-end">
-                      <button type="reset" class="btn btn-warning mr-3">
-                        Clear
-                      </button>
-                      <button type="submit" class="btn btn-primary btn-lg">
-                        Add
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <!-- /.card -->
               </div>
               <div class="col-lg-6 col-12">
                 <div class="card card-secondary">
